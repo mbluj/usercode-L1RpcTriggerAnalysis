@@ -40,7 +40,8 @@ public:
 	      const TrackObj * simu, 
 	      const HitSpecObj * hitSpec, 
 	      const VDigiSpec & higSpec,
-	      int iGranularity);
+	      int iGranularity,
+	      int secNum = -1);
   
   void endJob();
   void beginJob();

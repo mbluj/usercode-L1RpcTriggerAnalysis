@@ -130,7 +130,8 @@ L1Obj PatternManager::check(const EventObj* ev, const edm::EventSetup& es,
 			    const TrackObj * simu, 
 			    const HitSpecObj * hitSpec,  
 			    const VDigiSpec & vDigi,
-			    int iGranularity){
+			    int iGranularity,
+			    int secNum){
 
   L1Obj candidate;
  
